@@ -19,3 +19,18 @@ To continue with the installation, upgrade Windows to a supported version and th
 
 
 ```
+
+##### Install flowai
+
+```
+docker pull flowiseai/flowise:2.2.5
+docker run -d --name flowise -p 3000:3000 flowise
+
+
+In case failure
+docker rm -f flowises
+
+docker logs -f flowise
+
+### seem to be an issue with latest 9/19, dependency broken;
+```
