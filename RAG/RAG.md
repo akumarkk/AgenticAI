@@ -11,4 +11,16 @@ misunderstands the question, misses evidence and improvises
     - irrelevant IT checklist
 
 RC : misses security waiver policy;
- - model starved off context;
+ - model starved off context
+
+ weak retrieval : results in unreliable generation;
+ strong retrieval : enable accurate generation synthesis;
+
+ 1. query tranlation example:
+    - expanded intent with finance plicy keywords
+    - applied filters like date and role
+    - improved translation by injecting better context;
+    - metadata filters - like country = India
+
+2. Augmentation (post-retrieval)
+    - combining the retrieved raw data/documents with the user's original query to feed into the llms;
