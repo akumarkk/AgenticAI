@@ -26,3 +26,22 @@ RC : misses security waiver policy;
 
 2. Augmentation (post-retrieval)
     - combining the retrieved raw data/documents with the user's original query to feed into the llms;
+
+###### model, okay
+- right evidence lets modest models perform brilliantly., wrng evidence makes the best models misleading;
+- retrieval backbone of any RAG system, query transformation and multi-qery strategies 
+
+
+#### Query
+1. Query rewritting -
+    a. Multi query retrieval - query and retrieve separately;
+2. Query expansion - laptop refreshments vs asset refreshments; 
+    - bridge vocabulary gaps for better retrieval;
+    - Query expansion approach : generate targetted synonyms, related termsd and append synonyms or turn into parallel queries;
+    - example : Atlassian access, project management tool access, sso group membership etc
+3. HyDE - Hypothetical Document embedding;
+    - embed generated text, not raw questions; use generated embeddings as retrieval queries;
+    - how do we handle lost access cards? 
+        - keywords missed : physical badge, facility access credential, security incident, replacement fee;
+        - HyDE Hypothetical paragraph
+            employee who lose a facility access badge must report to security within 24 hours, submit an incident report, and request a replacement through facilities;
