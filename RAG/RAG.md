@@ -22,5 +22,7 @@ RC : misses security waiver policy;
     - improved translation by injecting better context;
     - metadata filters - like country = India
 
+    - HyDE (Hypotheticasl Document Embeddings) - generate hypothetical answers;
+
 2. Augmentation (post-retrieval)
     - combining the retrieved raw data/documents with the user's original query to feed into the llms;
