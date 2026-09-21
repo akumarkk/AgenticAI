@@ -1,4 +1,7 @@
 import chromadb
+import sys
+# import chromadb
+import keyboard
 
 # Initialize Chroma and collection
 ClientInstance = chromadb.HttpClient(
@@ -28,8 +31,13 @@ def ProcessUserQuery(QueryString):
 # Keyboard event loop simulation
 def HandleKeyEvent(e):
     global CurrentBuffer
+
+    if e.name == 'esc':
+        print("\nExiting program...")
+        keyboard.unhook_all()
+        sys.exit(0)
     
-    if e.name == 'enter':
+    elif e.name == 'enter':
         QueryString = "".join(CurrentBuffer)
         ProcessUserQuery(QueryString)
         CurrentBuffer = []  # Reset buffer
@@ -38,5 +46,20 @@ def HandleKeyEvent(e):
             CurrentBuffer.pop()
     elif e.name == 'space':
         CurrentBuffer.append(" ")
+        print(" ", end="", flush=True)
     elif len(e.name) == 1:
         CurrentBuffer.append(e.name)
+        print(e.name, end="", flush=True)
+
+import traceback
+
+try:
+    # Your script contents here...
+    print("Running...")
+    print("Listening for keyboard input... Type your query and press Enter. (Press ESC to exit)")
+    keyboard.on_press(HandleKeyEvent)
+    keyboard.wait()
+
+except Exception as e:
+    print(f"An error occurred: {e}")
+    traceback.print_exc()
