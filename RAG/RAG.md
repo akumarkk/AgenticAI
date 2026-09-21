@@ -32,7 +32,9 @@ RC : misses security waiver policy;
 - retrieval backbone of any RAG system, query transformation and multi-qery strategies 
 
 
-#### Query rewritting
+#### Query rewritting : retrieval effectiveness, not creative writing;
+*clearer, canonical retrieval requests*
+
 1. Query rewritting -Multi query retrieval - query and retrieve separately;
     a. Multi query retrieval - query and retrieve separately;
     multi-query ret req:
@@ -72,3 +74,5 @@ Query to query pipelines:
 - HyDE
 - Decomposition
 - multi-query
+
+Guardrails for 
