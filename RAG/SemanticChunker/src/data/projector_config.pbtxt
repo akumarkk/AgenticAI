@@ -1,0 +1,5 @@
+embeddings {
+  tensor_name: "RAGDescEmbddingsforSematicProj"
+  tensor_path: "vectors.tsv"
+  metadata_path: "metadata.tsv"
+}
