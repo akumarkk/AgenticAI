@@ -21,7 +21,23 @@
         - splits the sent. in the middle
         - separates a section heading from gov. paragraphs
         - divides a num. list into separate chunks
-+ Recursive chunking
++ Recursive chunking : not at arbitrary doc point, splits by boundaries like headings, paragraphs, sent, list items etc;
+    + each unit is more coherent, self-contained;
+    + preserves semantic boundaries, in policy, technical manuals, structured documentation;
 + Semantic chunking;
+    + actual changes in meaning, embedding acrtoss ruling window of text
+    + llm : segment into topic consistent sections, gets coherent chunks from messy documents
+    - processing costs;
+
+
+###### Chunksize and overlap
+descrip: the practice of repeating a specific portion of text at the end of one chunk and the beginning of the next;
+
++ adjust chunk size to control the retrieved context
++ set the ovrelap to preserve continuity across chunks
+
+- increases index size and duplicates with ovrelap
++ implement deduplication and reranking for accuracy;
+
 
 
