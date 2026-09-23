@@ -33,7 +33,7 @@ def main():
   index = initialize_pinecone()
 
   print(f"Loading products from data source...")
-  products = load_products("products.json")
+  products = load_products("../data/products.json")
 
   vectors_to_upsert = []
   for prod in products:
