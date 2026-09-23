@@ -1,0 +1,46 @@
+[
+  {
+    "id": "prod_001",
+    "text": "Wireless noise-canceling over-ear headphones with 30-hour battery life and high-res audio.",
+    "metadata": {
+      "Category": "Audio",
+      "Brand": "Sony",
+      "Price": 299.99,
+      "InStock": true,
+      "Year": 2025
+    }
+  },
+  {
+    "id": "prod_002",
+    "text": "Ultra-wide 34-inch curved 4K gaming monitor with 144Hz refresh rate and HDR support.",
+    "metadata": {
+      "Category": "Displays",
+      "Brand": "LG",
+      "Price": 599.99,
+      "InStock": true,
+      "Year": 2024
+    }
+  },
+  {
+    "id": "prod_003",
+    "text": "Ergonomic mechanical keyboard with hot-swappable tactile switches and RGB backlighting.",
+    "metadata": {
+      "Category": "Accessories",
+      "Brand": "Keychron",
+      "Price": 119.99,
+      "InStock": false,
+      "Year": 2024
+    }
+  },
+  {
+    "id": "prod_004",
+    "text": "Compact true wireless earbuds with active noise cancellation and sweat resistance.",
+    "metadata": {
+      "Category": "Audio",
+      "Brand": "Apple",
+      "Price": 249.00,
+      "InStock": true,
+      "Year": 2026
+    }
+  }
+]
