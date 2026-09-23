@@ -1,0 +1,6 @@
+Chunk_ID	Text_Content
+Chunk_1	Retrieval-Augmented Generation (RAG) optimizes LLM responses using external knowledge bases. Traditional chunking methods split text based on character or token counts.
+Chunk_2	However, fixed-size chunking often cuts sentences in half or breaks semantic context. Semantic chunking solves this by analyzing sentence embeddings. It measures cosine distance between adjacent sentences and identifies topic shifts.
+Chunk_3	When the semantic distance exceeds a threshold, a new chunk boundary is created.
+Chunk_4	Machine learning models require clean, well-formatted training data. Overfitting occurs when a model learns noise instead of actual patterns in data. Regularization techniques like L1 and L2 help prevent overfitting during model training. Neural networks consist of input, hidden, and output layers.
+Chunk_5	Backpropagation updates weights based on calculated loss values. Gradient descent minimizes loss functions during optimization.

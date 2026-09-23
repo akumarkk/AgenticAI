@@ -23,7 +23,11 @@ Backpropagation updates weights based on calculated loss values.
 
 # Initialize Local Ollama Embedding Model
 # Replace model with "llama3.2" if you explicitly prefer it over nomic-embed-text
-embeddings = OllamaEmbeddings(model="nomic-embed-text")
+# 1. Connect to Ollama running on custom port 11454
+embeddings = OllamaEmbeddings(
+    model="nomic-embed-text",
+    base_url="http://localhost:11434"
+)
 
 # ------------------------------------------------------------------
 # Experiment 1: Percentile Thresholding
