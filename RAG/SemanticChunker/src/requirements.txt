@@ -1,0 +1,1 @@
+pip install langchain-experimental langchain-community langchain-openai matplotlib numpys
