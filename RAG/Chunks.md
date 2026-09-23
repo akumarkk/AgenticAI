@@ -40,4 +40,21 @@ descrip: the practice of repeating a specific portion of text at the end of one 
 + implement deduplication and reranking for accuracy;
 
 
+###### embeddings
++ captures semantic similarity, with vector proximilty;
++ nns in multidimension space;
+
+
+###### prompt dilution
++ blend unrelated topics in a single chunk;
++ embeddings of such chunks  match multiple queries, but precisely to none;
+
+##### Semantic visualiation for chunking
+Embedding projectors—like TensorBoard Projector or Nomic Atlas—are effective tools for visualizing chunk boundaries. They allow you to project high-dimensional chunk vectors into interactive 3D/2D space (using UMAP, t-SNE, or PCA) and examine topic clusters and outliers.
+
++ visualize embeddings with tools like embedding projectors;
++ observe clusters forming in the data
++ identify the content clusters like security and HR
+
+
 
