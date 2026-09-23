@@ -18,3 +18,6 @@ Vector store data
 ###### vector search for structured data
 - full text search fails
 + vector search for semantic search : budget friendly summer shoes for beach walk
+
+###### RAG pipeline node
+*Node name* :  *Extract metadata retrievar*
