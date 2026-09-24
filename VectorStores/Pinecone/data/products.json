@@ -42,5 +42,335 @@
       "InStock": true,
       "Year": 2026
     }
+  },
+  {
+    "id": "prod_005",
+    "text": "Ergonomic mechanical keyboard with hot-swappable tactile switches and customizable RGB backlighting.",
+    "metadata": {
+      "Category": "Peripherals",
+      "Brand": "Keychron",
+      "Price": 119.99,
+      "InStock": true,
+      "Year": 2024
+    }
+  },
+  {
+    "id": "prod_006",
+    "text": "Wireless noise-canceling over-ear headphones with 30-hour battery life and spatial audio support.",
+    "metadata": {
+      "Category": "Audio",
+      "Brand": "Sony",
+      "Price": 349.99,
+      "InStock": true,
+      "Year": 2023
+    }
+  },
+  {
+    "id": "prod_007",
+    "text": "Compact wireless mouse with high-precision laser tracking and multi-device Bluetooth connectivity.",
+    "metadata": {
+      "Category": "Peripherals",
+      "Brand": "Logitech",
+      "Price": 99.99,
+      "InStock": false,
+      "Year": 2024
+    }
+  },
+  {
+    "id": "prod_008",
+    "text": "1TB NVMe PCIe 4.0 M.2 internal solid-state drive with read speeds up to 7,000 MB/s.",
+    "metadata": {
+      "Category": "Storage",
+      "Brand": "Samsung",
+      "Price": 109.99,
+      "InStock": true,
+      "Year": 2023
+    }
+  },
+  {
+    "id": "prod_009",
+    "text": "Smart home security camera with 2K resolution, night vision, and two-way audio communication.",
+    "metadata": {
+      "Category": "Smart Home",
+      "Brand": "Ring",
+      "Price": 79.99,
+      "InStock": true,
+      "Year": 2024
+    }
+  },
+  {
+    "id": "prod_010",
+    "text": "14-inch lightweight laptop featuring an octa-core processor, 16GB RAM, and 512GB SSD storage.",
+    "metadata": {
+      "Category": "Computers",
+      "Brand": "Apple",
+      "Price": 1299.00,
+      "InStock": true,
+      "Year": 2024
+    }
+  },
+  {
+    "id": "prod_011",
+    "text": "Adjustable standing desk with dual motors, memory height presets, and a solid bamboo top.",
+    "metadata": {
+      "Category": "Office Furniture",
+      "Brand": "Uplift",
+      "Price": 599.00,
+      "InStock": true,
+      "Year": 2023
+    }
+  },
+  {
+    "id": "prod_012",
+    "text": "Waterproof portable Bluetooth speaker with deep bass, rugged exterior, and 20-hour playtime.",
+    "metadata": {
+      "Category": "Audio",
+      "Brand": "JBL",
+      "Price": 149.95,
+      "InStock": true,
+      "Year": 2024
+    }
+  },
+  {
+    "id": "prod_013",
+    "text": "10-inch HD tablet with 64GB storage, expandable memory, and parental control features for family use.",
+    "metadata": {
+      "Category": "Tablets",
+      "Brand": "Amazon",
+      "Price": 149.99,
+      "InStock": false,
+      "Year": 2023
+    }
+  },
+  {
+    "id": "prod_014",
+    "text": "Wi-Fi 6 mesh router system covering up to 5,000 square feet with seamless whole-home coverage.",
+    "metadata": {
+      "Category": "Networking",
+      "Brand": "TP-Link",
+      "Price": 229.99,
+      "InStock": true,
+      "Year": 2024
+    }
+  },
+  {
+    "id": "prod_015",
+    "text": "Mirrorless digital camera body with 24.2MP sensor, 4K video recording, and advanced autofocus tracking.",
+    "metadata": {
+      "Category": "Cameras",
+      "Brand": "Sony",
+      "Price": 1798.00,
+      "InStock": true,
+      "Year": 2023
+    }
+  },
+  {
+    "id": "prod_016",
+    "text": "Smart fitness watch with built-in GPS, heart rate monitor, sleep tracking, and 7-day battery life.",
+    "metadata": {
+      "Category": "Wearables",
+      "Brand": "Garmin",
+      "Price": 299.99,
+      "InStock": true,
+      "Year": 2024
+    }
+  },
+  {
+    "id": "prod_017",
+    "text": "USB-C multi-port hub featuring 4K HDMI, 3 USB 3.0 ports, SD card reader, and 100W Power Delivery.",
+    "metadata": {
+      "Category": "Accessories",
+      "Brand": "Anker",
+      "Price": 49.99,
+      "InStock": true,
+      "Year": 2024
+    }
+  },
+  {
+    "id": "prod_018",
+    "text": "Smart LED color bulb compatible with major voice assistants and customizable lighting schedules.",
+    "metadata": {
+      "Category": "Smart Home",
+      "Brand": "Philips",
+      "Price": 44.99,
+      "InStock": true,
+      "Year": 2023
+    }
+  },
+  {
+    "id": "prod_019",
+    "text": "High-performance graphics card with 16GB VRAM, ray tracing support, and advanced cooling fans.",
+    "metadata": {
+      "Category": "Components",
+      "Brand": "NVIDIA",
+      "Price": 799.99,
+      "InStock": false,
+      "Year": 2024
+    }
+  },
+  {
+    "id": "prod_020",
+    "text": "Professional condenser microphone for podcasting and streaming with cardioid polar pattern and mute button.",
+    "metadata": {
+      "Category": "Audio",
+      "Brand": "HyperX",
+      "Price": 129.99,
+      "InStock": true,
+      "Year": 2023
+    }
+  },
+  {
+    "id": "prod_021",
+    "text": "Programmable gaming mouse with optical switches, 20,000 DPI sensor, and customizable side buttons.",
+    "metadata": {
+      "Category": "Peripherals",
+      "Brand": "Razer",
+      "Price": 79.99,
+      "InStock": true,
+      "Year": 2024
+    }
+  },
+  {
+    "id": "prod_022",
+    "text": "Smart thermostat with energy-saving automation, remote mobile control, and easy self-installation.",
+    "metadata": {
+      "Category": "Smart Home",
+      "Brand": "Google",
+      "Price": 129.99,
+      "InStock": true,
+      "Year": 2023
+    }
+  },
+  {
+    "id": "prod_023",
+    "text": "External 2TB portable solid-state drive with shock resistance and USB-C transfer speeds up to 1,050 MB/s.",
+    "metadata": {
+      "Category": "Storage",
+      "Brand": "SanDisk",
+      "Price": 159.99,
+      "InStock": true,
+      "Year": 2024
+    }
+  },
+  {
+    "id": "prod_024",
+    "text": "65-inch OLED 4K UHD smart TV with cinematic Dolby Vision, filmmaker mode, and low input lag for gaming.",
+    "metadata": {
+      "Category": "Displays",
+      "Brand": "LG",
+      "Price": 1499.99,
+      "InStock": true,
+      "Year": 2024
+    }
+  },
+  {
+    "id": "prod_025",
+    "text": "Smart wireless charging pad with fast-charge support for smartphones, smartwatches, and earbuds simultaneously.",
+    "metadata": {
+      "Category": "Accessories",
+      "Brand": "Belkin",
+      "Price": 89.99,
+      "InStock": false,
+      "Year": 2023
+    }
+  },
+  {
+    "id": "prod_026",
+    "text": "True wireless earbuds with active noise cancellation, transparency mode, and sweat resistance.",
+    "metadata": {
+      "Category": "Audio",
+      "Brand": "Apple",
+      "Price": 249.00,
+      "InStock": true,
+      "Year": 2024
+    }
+  },
+  {
+    "id": "prod_027",
+    "text": "Mesh Wi-Fi range extender with dual-band connectivity and high-gain antennas to eliminate dead zones.",
+    "metadata": {
+      "Category": "Networking",
+      "Brand": "Netgear",
+      "Price": 89.99,
+      "InStock": true,
+      "Year": 2023
+    }
+  },
+  {
+    "id": "prod_028",
+    "text": "Smart door lock with fingerprint recognition, keypad code entry, auto-lock, and app integration.",
+    "metadata": {
+      "Category": "Smart Home",
+      "Brand": "Aqara",
+      "Price": 169.99,
+      "InStock": true,
+      "Year": 2024
+    }
+  },
+  {
+    "id": "prod_029",
+    "text": "Compact mechanical numpad with hot-swappable switches, aluminum frame, and programmable macro keys.",
+    "metadata": {
+      "Category": "Peripherals",
+      "Brand": "Epomaker",
+      "Price": 45.99,
+      "InStock": true,
+      "Year": 2024
+    }
+  },
+  {
+    "id": "prod_030",
+    "text": "Desktop power strip tower with 8 AC outlets, 4 USB charging ports, and built-in surge protection.",
+    "metadata": {
+      "Category": "Accessories",
+      "Brand": "Anker",
+      "Price": 39.99,
+      "InStock": true,
+      "Year": 2023
+    }
+  },
+  {
+    "id": "prod_031",
+    "text": "Ultra-slim portable monitor with 15.6-inch IPS display, USB-C connectivity, and built-in speakers.",
+    "metadata": {
+      "Category": "Displays",
+      "Brand": "ASUS",
+      "Price": 199.99,
+      "InStock": true,
+      "Year": 2024
+    }
+  },
+  {
+    "id": "prod_032",
+    "text": "Wireless tracking tile for keys, wallets, and bags with replaceable battery and loud ring alert.",
+    "metadata": {
+      "Category": "Smart Home",
+      "Brand": "Tile",
+      "Price": 29.99,
+      "InStock": true,
+      "Year": 2023
+    }
+  },
+  {
+    "id": "prod_033",
+    "text": "32GB kit (2 x 16GB) DDR5 desktop memory running at 6000MHz with optimized performance profiles.",
+    "metadata": {
+      "Category": "Components",
+      "Brand": "Corsair",
+      "Price": 114.99,
+      "InStock": true,
+      "Year": 2024
+    }
+  },
+  {
+    "id": "prod_034",
+    "text": "Adjustable heavy-duty monitor arm desk mount supporting screens up to 34 inches with integrated cable management.",
+    "metadata": {
+      "Category": "Office Furniture",
+      "Brand": "Ergotron",
+      "Price": 149.99,
+      "InStock": true,
+      "Year": 2023
+    }
   }
 ]
