@@ -26,4 +26,12 @@ Native observability
 - build security and obs yourself;
 
 
+###### framework selection decisin m- 
+- context control
+- state model clarity
+- tool discipline
+- observability
+- extensibility and testing
+
+
 
