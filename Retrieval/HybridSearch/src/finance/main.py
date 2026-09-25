@@ -1,5 +1,6 @@
 import csv
 
+from duckdb import query
 from flask import json
 from encoders import HybridEncoder
 from vector_store import PineconeVectorStore
@@ -16,10 +17,16 @@ def load_dataset(file_path: str) -> list[dict]:
     with open(file_path, mode="r", encoding="utf-8") as f:
         return json.load(f)
 
+def result(query, results, alpha):
+    print(f"Results for query: '{query}' (Alpha: {alpha})")
+    for rank, res in enumerate(results, start=1):
+        print(f"[{rank}] Score: {res['score']} | ID: {res['id']}")
+        print(f"    Text: {res['metadata']['text']}\n")
+
 
 def main():
     INDEX_NAME = "financestatements-modular-hybrid-demo"
-    DATASET_PATH = "../../data/finance/financial_statements_2026.csv"
+    DATASET_PATH = "../../data/finance/financial_statements_2026.json"
 
     # 1. Initialize Components
     encoder = HybridEncoder()
@@ -52,11 +59,15 @@ def main():
     # 3. Query Execution Example
     query = "subscription charges for netflix $15.49"
     results = search_engine.search(query=query, alpha=0.5, top_k=3)
+    result(query, results, alpha=0.5)
 
-    print(f"Results for query: '{query}'")
-    for rank, res in enumerate(results, start=1):
-        print(f"[{rank}] Score: {res['score']} | ID: {res['id']}")
-        print(f"    Text: {res['metadata']['text']}\n")
+    # To prioritize exact merchant names / price tags (Sparse/Keyword Bias):
+    results = search_engine.search(query=query, alpha=0.2, top_k=3)
+    result(query, results, alpha=0.2    )
+
+    # To prioritize broad semantic meaning (Dense/Vector Bias):
+    results = search_engine.search(query=query, alpha=0.8, top_k=3)
+    result(query, results, alpha=0.8)
 
 
 if __name__ == "__main__":
