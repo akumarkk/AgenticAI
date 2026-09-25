@@ -1,0 +1,66 @@
+[
+    {
+        "id": "TXN_9010",
+        "merchant_code": "TST* NETFLIX.COM 800-802-4280 CA",
+        "category": "Entertainment & Subscriptions",
+        "amount": 15.49,
+        "date": "2026-07-15",
+        "description": "Monthly recurring digital streaming service subscription payment for office breakroom smart TV."
+    },
+    {
+        "id": "TXN_9011",
+        "merchant_code": "AMZN MKTP US*2L90X11",
+        "category": "Office Supplies",
+        "amount": 142.80,
+        "date": "2026-07-18",
+        "description": "Ergonomic standing desk accessories, USB-C multi-port hubs, and wireless mechanical keyboards."
+    },
+    {
+        "id": "TXN_9012",
+        "merchant_code": "AWS EMEA Cloud Web Services ID: 994012",
+        "category": "Infrastructure",
+        "amount": 2450.00,
+        "date": "2026-07-20",
+        "description": "On-demand compute instances, S3 object storage bucket usage, and vector database hosting nodes."
+    },
+    {
+        "id": "TXN_9013",
+        "merchant_code": "CHEVRON #0039210 SAN JOSE CA",
+        "category": "Travel & Fuel",
+        "amount": 58.40,
+        "date": "2026-07-22",
+        "description": "Unleaded gasoline fuel for company delivery van during quarterly client visits."
+    },
+    {
+        "id": "TXN_9014",
+        "merchant_code": "SPOTIFY USA RECURRING SUB #8812",
+        "category": "Entertainment & Subscriptions",
+        "amount": 10.99,
+        "date": "2026-07-25",
+        "description": "Premium audio music and podcast streaming service account for creative team ambient background sound."
+    },
+    {
+        "id": "TXN_9015",
+        "merchant_code": "OVERDRAFT SERVICE FEE CHARGE CHK-88120",
+        "category": "Bank Fees & Penalties",
+        "amount": 35.00,
+        "date": "2026-07-28",
+        "description": "Standard institutional bank penalty fee assessed for insufficient checking account balance during automated clearing house transfer."
+    },
+    {
+        "id": "TXN_9016",
+        "merchant_code": "UBER* TRIP SAN FRANCISCO CA",
+        "category": "Travel & Rideshare",
+        "amount": 42.15,
+        "date": "2026-08-01",
+        "description": "Passenger ground transport rideshare service from airport terminal to downtown conference center."
+    },
+    {
+        "id": "TXN_9017",
+        "merchant_code": "GITHUB INC MONTHLY ORGANIZATIONAL PLAN",
+        "category": "Developer Tools",
+        "amount": 210.00,
+        "date": "2026-08-03",
+        "description": "Software code repository hosting, CI/CD runner pipelines, and automated security vulnerability code scanning tools."
+    }
+]
