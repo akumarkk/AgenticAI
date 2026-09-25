@@ -52,3 +52,7 @@ graph = builder.compile()
 Limitations
 - more upfront design, boilerplate, and stirct state schema;
 
+3. Autogen
+    Agent conversation
+    + agent1, agent2 argues; agent3 judges;
+    + 
