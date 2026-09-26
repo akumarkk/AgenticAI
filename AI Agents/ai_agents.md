@@ -1,4 +1,9 @@
 ###### Types of ai agents
+Stuart Russell and Peter Norvig authored "Artificial Intelligence: A Modern Approach" (AIMA), the standard textbook used across the field.   Their framework defines AI around the concept of "Rational Agents"—systems that take in percepts from an environment and choose actions to maximize expected performance.   The classical taxonomy of agent architectures (Simple Reflex, Model-Based Reflex, Goal-Based, Utility-Based, and Learning Agents) comes directly from Chapter 2 of their book.
+
+```
+
+```
 
 | Category | Agent / Paradigm | Real-World System | Category Rationale (Why it fits here) |
 | :--- | :--- | :--- | :--- |
