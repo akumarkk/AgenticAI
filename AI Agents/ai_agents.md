@@ -33,7 +33,7 @@ Stuart Russell and Peter Norvig authored "Artificial Intelligence: A Modern Appr
     └────────────────┘       └────────────────┘       └────────────────┘
 
     
-##### The Agent Execution Loop
+#### The Agent Execution Loop
 
 | Stage | Core Responsibility | Key Sub-Mechanisms | Classical AI Root | Modern LLM / Agent Primitive | Primary Failure Mode |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -48,3 +48,17 @@ Stuart Russell and Peter Norvig authored "Artificial Intelligence: A Modern Appr
 3. data gathering
 4. execution
 5. optimization
+
+
+###### Agentic AI vs AI Agents
+AI agent is a component of Agentic AI or could be an AI agent which is goal driven.
+
+AI agent
+1. Tools
+2. memory
+3. users
+4. Goals
+5. planning
+6. environment
+7. actions
+8. other agents
