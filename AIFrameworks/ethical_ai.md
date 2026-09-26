@@ -13,5 +13,12 @@ Example : amanger ask perf inmprovement plan, agent returning employee sensitive
 2. Transparency - audit
 3. Accountability - full system traceability
 4. Privacy
-5. Safety
+5. Safety 
+
+###### Operationalize
+1. PII  leakage
+2. retrieval filter
+hallucination
+retrieval score thresholds
+3. Prompt injection
 
