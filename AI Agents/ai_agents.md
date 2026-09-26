@@ -18,3 +18,33 @@ Stuart Russell and Peter Norvig authored "Artificial Intelligence: A Modern Appr
 | **Modern** | **Predictive AI** | **Credit Scoring Systems** | Analyzes historical data features to output numerical probabilities or classifications (e.g., risk of default) rather than taking actions or generating creative content. |
 | **Modern** | **Autonomous (ReAct)** | **AI Coding Assistants (e.g., Devin)** | Iteratively reasons about a problem, formulates plans, executes terminal commands or APIs, reads errors, and self-corrects in a loop until the job is done. |
 | **Modern** | **Embodied AI** | **Self-Driving Vehicles** | Fuses real-time physical sensor data (LiDAR, cameras) directly with motor control outputs to interact safely with the physical world in real time. |
+
+###### AI agent lifecyle
+
+    ┌────────────────┐       ┌────────────────┐       ┌────────────────┐
+    │ 1. Spec & PEAS │ ───>  │  2. Design &   │ ───>  │ 3. Development │
+    │   Definition   │       │ Architecture   │       │  & Tooling     │
+    └────────────────┘       └────────────────┘       └────────────────┘
+            │                                                 │
+            │                                                 ▼
+    ┌────────────────┐       ┌────────────────┐       ┌────────────────┐
+    │ 6. Maintenance │ <───  │ 5. Production  │ <───  │ 4. Evaluation  │
+    │  & Adaptation  │       │   Deployment   │       │   & Guardrails │
+    └────────────────┘       └────────────────┘       └────────────────┘
+
+    
+##### The Agent Execution Loop
+
+| Stage | Core Responsibility | Key Sub-Mechanisms | Classical AI Root | Modern LLM / Agent Primitive | Primary Failure Mode |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1. Goal Setting** | Defines the explicit success criteria, constraints, scope, and target state of the agent system. | - Constraint specification<br>- Utility function mapping<br>- Intent clarification | **BDI Architecture** *(Desire)* & **PEAS Framework** *(Performance Measure)* | System Prompts, Structured Output Schemas (e.g., Pydantic), User Goal Alignment | Scope creep, ambiguous criteria, misaligned utility weights |
+| **2. Planning** | Decomposes high-level goals into an ordered, executable sequence of sub-tasks and dependency graphs. | - Hierarchical Task Networks (HTN)<br>- Sub-goal decomposition<br>- Multi-path reasoning | **STRIPS Planning**, **A* Search**, & **Dijkstra's Algorithm** | Chain-of-Thought (CoT), Tree-of-Thoughts (ToT), Plan-and-Solve | Infinite planning loops, hallucinated dependency steps, fragile step ordering |
+| **3. Data Gathering** | Retrieves real-time context, environment observations, and missing facts required for execution. | - RAG / Vector search<br>- API perception<br>- Environment sensing | **Perceptual Processing** & **Belief State Updates** | Tool Calling (e.g., Search, SQL, Web Scraping), In-Context Memory Retrieval | Information overload (context window bloat), retrieval of stale/hallucinated data |
+| **4. Execution** | Invokes external tools, runs code, or generates artifacts to change the state of the system or environment. | - Function calling<br>- Code execution sandboxes<br>- API orchestration | **Actuator Operations** & **Condition-Action Rules** | ReAct Action Phase, Function/Tool Calling, Code Interpreter Runtime | API rate limits, tool execution errors, unauthorized state changes |
+| **5. Optimization** | Evaluates intermediate outputs against goal criteria, detects errors, and adjusts future execution trajectories. | - Self-reflection / Criticism<br>- Error backtracking<br>- Dynamic re-planning | **Reinforcement Learning** *(Reward Signals)* & **Adaptive Control** | Reflexion Loops, Self-Correction Prompts, Trajectory Evaluation (Evals) | Error propagation (hallucinating success), over-correcting, high token cost |
+
+1. Goal setting
+2. Planning
+3. data gathering
+4. execution
+5. optimization
