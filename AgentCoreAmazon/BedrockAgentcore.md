@@ -5,4 +5,7 @@ Comps
 2. Agentcore memory
 3. Agentcore identity
 4. Amazon cognito
-5. 
+Access tools
+5. Agentcore gateway
+6. Agentcore browser
+7. Agentcore code interpreter
