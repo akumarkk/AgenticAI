@@ -1,0 +1,25 @@
+[project]
+name = "vacation_planner_v2"
+version = "0.1.0"
+description = "vacation_planner_v2 using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]>=1.15.23,<2.0.0"
+]
+
+[project.scripts]
+vacation_planner_v2 = "vacation_planner_v2.main:run"
+run_crew = "vacation_planner_v2.main:run"
+train = "vacation_planner_v2.main:train"
+replay = "vacation_planner_v2.main:replay"
+test = "vacation_planner_v2.main:test"
+run_with_trigger = "vacation_planner_v2.main:run_with_trigger"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
+project_id = "4248c516-d4ea-4f11-9f3b-95979a522bbe"
